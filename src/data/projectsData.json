@@ -1,0 +1,57 @@
+[
+	{
+		"title": "Truss Bridge Design Project",
+		"id": "truss-bridge-design-project",
+		"description": "Together with a team of five other people, including one student who was fully remote from overseas, we designed and built a truss bridge. It was made to fit the given strict specifications outlined in our brief. Throughout the process, we documented every step we took along the way and scheduled group meetings to stay organised.\nI was the leader of our team, using this role to plan and coordinate tasks and meetings with the team, ensure we were prepared for all of our deadlines and made sure our overseas team member was kept up to date and included. After the project, we were given the opportunity to give each other feedback, and I was praised as “an amazing group leader that helped keep the whole group on track and made sure everyone was ready for every deadline.",
+		"image": "/images/projects/Truss-Project.jpeg",
+		"alt": "Rivah with four team members and a wooden truss bridge",
+		"startDate": "2022-07-01",
+		"endDate": "2022-10-30",
+		"status": "Completed",
+		"tags": ["Team Work", "Communication"]
+	},
+	{
+		"title": "Brushless DC Electric Motor Project",
+		"id": "brushless-dc-electric-motor-project",
+		"description": "I completed the complete creation of a brushless DC electric motor. This project was completed individually and involved soldering a circuit board and components, 3D printing parts, laser-cutting a case, using mechanical tools and reading technical drawings to put it all together. I learned many valuable general practical skills.",
+		"image": "/images/projects/DC-Motor-Project.jpeg",
+		"alt": "Brushless DC electric motor in casing",
+		"startDate": "2022-02-01",
+		"endDate": "2022-04-30",
+		"status": "Completed",
+		"tags": ["Self-directed Learning", "DC Motors", "Soldering", "3D Printing", "Laser Cutting"]
+	},
+	{
+		"title": "Smart Energy Monitor Project",
+		"id": "project-3",
+		"description": "Together with a team of three other people, we designed and developed an energy monitor that could be used to measure and display the amount of energy consumed by appliances. During this project, we used analogue circuitry, PCB design, ATMega328P microcontroller programming, and serial and Bluetooth communication to develop our monitor.\nOur team placed in the Top 4 teams in the course and was given the opportunity to present our design to industry experts to receive feedback and share our success.\nThroughout the process, we used industry tools such as LTSpice, Microchip Studio, Proteus VSM, Altium Designer, GitHub & Slack.\nI primarily worked on microcontroller programming, specifically writing firmware to control UART transmission, a seven-segment display and timers to control the display and ADC conversions in C for the ATMega328P microcontroller. I also designed analogue circuitry and had a hand in most other design elements, learning the processes over the duration of the course.",
+		"image": "/images/projects/Smart-Energy-Monitor.jpeg",
+		"alt": "Smart energy monitor circuit board and display",
+		"startDate": "2024-06-01",
+		"endDate": "2024-07-31",
+		"status": "Complete",
+		"tags": ["C", "Microcontroller Programming", "Team Work"]
+	},
+	{
+		"title": "Trading Profitability Machine Learning Model",
+		"id": "part-iv-project",
+		"description": "Final year research project for BE. Worked with a partner to develop a machine-learning model to optimise financial trading parameters. Conducted research, collected data, performed backtesting, trained various machine learning models, and explored reinforcement learning techniques. Presented findings to industry members on exhibition day",
+		"image": "/images/projects/Part-IV-Project.jpeg",
+		"alt": "Project poster from final display day detailing project information",
+		"startDate": "2024-02-01",
+		"endDate": "2025-11-31",
+		"status": "Complete",
+		"tags": ["Python", "Machine Learning", "Data Collection", "Feature Engineering", "Model Evaluation", "Research", "Team Work"]
+	},
+	{
+		"title": "Portfolio Website",
+		"id": "portfolio-website",
+		"description": "Designed and developed a responsive, multi-page website using React with largely vanilla CSS in order to gain experience with React, develop my understanding of CSS, and display my skills as a portfolio.",
+		"image": "/images/projects/Portfolio-Website.jpg",
+		"alt": "",
+		"startDate": "2025-04-01",
+		"endDate": "2025-10-31",
+		"status": "Complete",
+		"tags": ["React", "JavaScript", "HTML", "CSS", "React Router", "Material UI", "EmailJS"]
+	}
+]

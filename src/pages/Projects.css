@@ -1,0 +1,27 @@
+
+.projects-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: var(--space-xl) var(--space-md);
+  background: var(--color-bg-alt);
+  box-shadow: var(--shadow-lg);
+  border-radius: var(--radius-lg);
+}
+
+.projects-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: var(--space-xl);
+}
+
+@media (max-width: 768px) {
+  .projects-list {
+    grid-template-columns: 1fr;
+  }
+  .projects-container {
+    padding: var(--space-md) var(--space-xs);
+  }
+}

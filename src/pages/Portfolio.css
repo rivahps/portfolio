@@ -1,0 +1,109 @@
+
+.cv-btn-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.portfolio-row {
+  display: flex;
+  gap: var(--space-2xl);
+  justify-content: center;
+  width: 100%;
+  max-width: 1400px;
+}
+
+.education-container, .work-experience-container {
+  flex: 1 1 0;
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.portfolio-section {
+  margin: 0 auto var(--space-2xl) auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.item-block {
+  margin-bottom: var(--space-xl);
+  padding-bottom: var(--space-xs);
+  border-bottom: 1px solid var(--color-border);
+}
+.item-block:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+.item-title, .item-years {
+  margin: var(--space-xs) 0;
+  text-align: center;
+}
+.item-details {
+  margin: var(--space-lg) 0;
+}
+
+.projects-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: var(--space-lg);
+}
+
+.view-more-arrow-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 var(--space-lg);
+  gap: var(--space-md);
+}
+.view-more-arrow-link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-primary);
+  text-decoration: none;
+  gap: var(--space-xs);
+}
+.view-more-arrow-icon {
+  font-size: 2rem;
+  width: 3.5rem;
+  height: 3.5rem;
+  display: flex;
+  background: var(--color-primary);
+  color: var(--color-text-on-dark);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: var(--shadow-md);
+}
+.view-more-arrow-text {
+  font-size: var(--font-size-lg);
+  font-weight: var(--font-weight-semibold);
+  color: var(--color-text);
+}
+
+.portfolio-projects-scroll {
+  width: 100%;
+  overflow-x: auto;
+}
+
+@media (max-width: 900px) {
+  .portfolio-row {
+    flex-direction: column;
+    gap: 0;
+  }
+  .education-container, .work-experience-container {
+    max-width: 100%;
+  }
+}

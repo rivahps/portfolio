@@ -1,0 +1,24 @@
+[
+	{
+		"company": "Tamhai Limited / TestCaddy",
+		"role": "Summer Intern",
+		"startDate": "2023-11-01",
+		"endDate": "2024-02-29",
+		"details": [
+			"Gained hands-on experience in web development, server management, and automated testing.",
+			"Enhanced TestCaddy web application functionality using C#, .NET, JavaScript, and CSS/SASS.",
+			"Updated cloud servers in Jenkins and Azure, and integrated automated tests using Playwright with Azure pipelines.",
+			"Managed version control with Azure and SourceTree, and kept track of issues using Jira."
+		]
+	},
+	{
+		"company": "Landkind",
+		"role": "Summer Intern",
+		"startDate": "2025-11-18",
+		"endDate": "2026-02-16",
+		"details": [
+			"Assisting with software development projects, including coding, testing, documentation, and team meetings.",
+			"Developing an intern project with a team member using React."
+		]
+	}
+]

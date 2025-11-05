@@ -1,0 +1,96 @@
+
+.contact-form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 60vh;
+  width: 100%;
+  background: none;
+  border-radius: 0;
+  box-shadow: none;
+}
+
+.contact-form {
+  max-width: 700px;
+  width: 100%;
+  margin: 0 auto;
+  padding: var(--space-xl) var(--space-lg);
+  background: var(--color-bg-alt);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-lg);
+  font-family: var(--font-sans);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-lg);
+}
+
+.contact-form label {
+  display: block;
+  margin-bottom: var(--space-xs);
+  font-weight: var(--font-weight-semibold);
+  color: var(--color-text);
+  font-size: var(--font-size-base);
+}
+
+.contact-form input,
+.contact-form textarea {
+  font-family: var(--font-sans);
+  padding: var(--space-md) var(--space-lg);
+  margin-bottom: var(--space-md);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-sm);
+  font-size: var(--font-size-base);
+  background: var(--color-bg);
+  transition: border-color var(--transition-fast), box-shadow var(--transition-fast);
+  width: 100%;
+  min-height: 44px;
+}
+
+.contact-form textarea {
+  min-height: 120px;
+  resize: vertical;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: var(--color-primary);
+  outline: none;
+  box-shadow: 0 0 6px var(--color-primary);
+}
+
+.contact-form button {
+  display: block;
+  width: 100%;
+  padding: var(--space-md);
+  background: var(--color-primary);
+  color: #fff;
+  border: none;
+  border-radius: var(--radius-md);
+  font-size: var(--font-size-base);
+  font-family: var(--font-sans);
+  font-weight: var(--font-weight-semibold);
+  box-shadow: var(--shadow-md);
+  transition: background var(--transition-fast), transform var(--transition-fast);
+}
+
+.contact-form button:hover {
+  background: var(--color-secondary);
+  color: var(--color-primary);
+  transform: translateY(-2px) scale(1.03);
+}
+
+.error-message {
+  color: var(--color-error);
+  font-size: var(--font-size-base);
+  margin-top: -8px;
+  margin-bottom: var(--space-sm);
+  display: block;
+}
+
+.success-message {
+  color: var(--color-primary);
+  font-size: var(--font-size-base);
+  margin-top: var(--space-sm);
+  text-align: center;
+  font-weight: var(--font-weight-semibold);
+}

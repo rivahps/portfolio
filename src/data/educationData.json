@@ -1,0 +1,33 @@
+[
+	{
+		"institution": "Katikati College",
+		"degree": "NCEA Level 3 Endorsed Overall with Excellence",
+		"startYear": 2013,
+		"endYear": 2020,
+		"details": [
+			"Graduated with Proxime Accessit or runner-up to Dux (top-achieving student).",
+			"Took on the roles of Academic Captain, Peer Support Captain and Academic Tutor."
+		]
+	},
+	{
+		"institution": "Te Aho o Te Kura Pounamu",
+		"degree": "NCEA Level 2 & 3 Digital Technology Course Endorsed with Merit",
+		"startYear": 2019,
+		"endYear": 2020,
+		"details": [
+			"Self-taught NCEA Level 2 and 3 Digital Technology through Te Kura as my school did not offer these subjects.",
+			"Achieved Merit endorsement in both levels."
+		]
+	},
+	{
+		"institution": "University of Auckland",
+		"degree": "Bachelor of Engineering (Honours) in Computer Systems",
+		"startYear": 2021,
+		"endYear": 2024,
+		"details": [
+			"Developed skills in research, critical thinking, and academic writing.",
+			"Collaborated with peers on large-scale group projects to meet deadlines and deliver quality results.",
+			"Demonstrated ability to manage workload effectively while balancing multiple commitments."
+		]
+	}
+]

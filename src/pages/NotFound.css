@@ -1,0 +1,14 @@
+
+.notfound-page .content-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.error-container h1 {
+  font-size: var(--font-size-6xl);
+  font-weight: var(--font-weight-bold);
+  color: var(--color-primary);
+  margin-bottom: var(--space-sm);
+}
